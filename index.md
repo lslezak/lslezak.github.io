@@ -1,29 +1,30 @@
 ## Testing AutoYaST Profiles
 
-### Notes
+### Warning
 
-:warning: This still WIP, the locations and the paths can still change!!
+:warning: This is site a proof of concept, the file names and URL paths
+can be still changed!! :warning:
 
 ### Minimal Profiles
 
+The minimal profiles configure only the required options, the system defaults
+are used for everything else.
+
 #### Minimal openSUSE Leap 15
 
-File: [minimal_leap15.xml]({{ "/" | absolute_url }}/minimal_leap15.xml)
-Boot option: `autoyast={{ "/" | absolute_url }}/minimal_leap15.xml`
+File: [minimal_leap15.xml]({{ "/" | absolute_url }}minimal_leap15.xml)  
+Boot option: `autoyast={{ "/" | absolute_url }}minimal_leap15.xml`
 
-- Minimalistic configuration
 - Displays the installation summary, needs to be manually confirmed
 - Set `linux` password for the `root` user
-- Use defaults for everything else
 
 #### Minimal SLES 15
 
-File: [minimal_sles15.xml]({{ "/" | absolute_url }}/minimal_sles15.xml)
-Boot option: `autoyast={{ "/" | absolute_url }}/minimal_sles15.xml`
+File: [minimal_sles15.xml]({{ "/" | absolute_url }}minimal_sles15.xml)  
+Boot option: `autoyast={{ "/" | absolute_url }}minimal_sles15.xml`
 
 - Minimalistic configuration for Full installation medium
 - Displays the installation summary, needs to be manually confirmed
 - Set `linux` password for the `root` user
-- Adds the SLES base product and the Basesystem module
+- Adds the Basesystem module repository
 - Selects SLES as the base product
-- Use defaults for everything else
