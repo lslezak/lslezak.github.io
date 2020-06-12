@@ -8,8 +8,7 @@
 
 #### Minimal openSUSE Leap 15
 
-[minimal_leap15.xml]({{ "/" | absolute_url }}/minimal_leap15.xml)
-
+File: [minimal_leap15.xml]({{ "/" | absolute_url }}/minimal_leap15.xml)
 Boot option: `autoyast={{ "/" | absolute_url }}/minimal_leap15.xml`
 
 - Minimalistic configuration
@@ -17,12 +16,9 @@ Boot option: `autoyast={{ "/" | absolute_url }}/minimal_leap15.xml`
 - Set `linux` password for the `root` user
 - Use defaults for everything else
 
-{{ "/" | absolute_url }}/minimal_leap15.xml
-
 #### Minimal SLES 15
 
-[minimal_sles15.xml]({{ "/" | absolute_url }}/minimal_sles15.xml)
-
+File: [minimal_sles15.xml]({{ "/" | absolute_url }}/minimal_sles15.xml)
 Boot option: `autoyast={{ "/" | absolute_url }}/minimal_sles15.xml`
 
 - Minimalistic configuration for Full installation medium
