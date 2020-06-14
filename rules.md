@@ -8,7 +8,7 @@ https://documentation.suse.com/sles/15-SP1/html/SLES-all/rulesandclass.html#rule
 
 ### X Window or Minimal System
 
-OS: openSUSE Leap 15
+OS: openSUSE Leap 15  
 Files: [rules/rules.xml]({{ "/" | absolute_url }}rules1/rules/rules.xml),
   [mini_leap15.xml]({{ "/" | absolute_url }}rules1/mini_leap15.xml),
   [x11.xml]({{ "/" | absolute_url }}rules1/x11.xml)  

@@ -1,8 +1,8 @@
 
 ## Minimal Profiles
 
-The minimal profiles configure only the required options, the system defaults
-are used for everything else.
+The minimal profiles configure only the required minimal set of options,
+the system defaults are used for everything else.
 
 #### Minimal openSUSE Leap 15
 
