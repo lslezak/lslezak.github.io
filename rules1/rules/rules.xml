@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE autoinstall>
+<autoinstall xmlns="http://www.suse.com/1.0/yast2ns" 
+  xmlns:config="http://www.suse.com/1.0/configns">
+
+  <rules config:type="list">
+    <rule>
+      <disksize>
+        <match>/dev/sda 1000</match>
+        <match_type>greater</match_type>
+      </disksize>
+      <result>
+        <profile>x11.xml</profile>
+        <continue config:type="boolean">false</continue>
+      </result>
+    </rule>
+
+    <rule>
+      <disksize>
+        <match>/dev/sda 1000</match>
+        <match_type>lower</match_type>
+      </disksize>
+      <result>
+        <profile>mini_leap15.xml</profile>
+        <continue config:type="boolean">false</continue>
+      </result>
+    </rule>
+  </rules>
+
+</autoinstall>
