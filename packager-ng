@@ -1,0 +1,8 @@
+set +x
+yupdate patch yast-autoinstallation packager-ng
+yupdate patch yast-installation packager-ng
+yupdate patch yast-packager packager-ng
+yupdate patch yast-registration packager-ng
+yupdate patch yast-update packager-ng
+yupdate patch yast-yast2 packager-ng
+grep -q Enterprise /etc/os-release && yupdate patch skelcd-control-leanos packager-ng
